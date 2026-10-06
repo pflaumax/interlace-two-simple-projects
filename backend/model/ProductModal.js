@@ -31,6 +31,10 @@ const ProductSchema = new Schema({
       price: {
         type: String,
       },
+      inStock: {
+        type: Boolean,
+        default: true,
+      },
     },
   ],
 });
