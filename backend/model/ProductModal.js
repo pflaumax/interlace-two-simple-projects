@@ -15,6 +15,9 @@ const ProductSchema = new Schema({
     required: true,
     max: 40,
   },
+  brand: {
+    type: String,
+  },
   items: [
     {
       product_id: {
