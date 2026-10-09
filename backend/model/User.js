@@ -23,6 +23,9 @@ const UserSchema = new Schema({
   lastLogin: {
     type: Date,
   },
+  phone: {
+    type: String,
+  },
 });
 
 module.exports = User = mongoose.model("users", UserSchema);
